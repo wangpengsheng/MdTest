@@ -1,0 +1,26 @@
+[
+  {
+    "MasterName": "Master1",
+    "SlaveId": 1,
+    "Address": 2,
+    "OnDataChangedFunction": "Master1HandleDataChanged",
+    "BeforeDataChangedFunction": "Master1BeforeDataChanged",
+    "AfterDataChangedFunction": "Master1AfterDataChanged"
+  },
+  {
+    "MasterName": "Master2",
+    "SlaveId": 1,
+    "Address": 3,
+    "OnDataChangedFunction": "Master2HandleDataChanged",
+    "BeforeDataChangedFunction": "Master2BeforeDataChanged",
+    "AfterDataChangedFunction": "Master2AfterDataChanged"
+  },
+  {
+    "MasterName": "Master1",
+    "SlaveId": 2,
+    "Address": 5,
+    "OnDataChangedFunction": "Master1_5_HandleDataChanged",
+    "BeforeDataChangedFunction": "Master1_5_BeforeDataChanged",
+    "AfterDataChangedFunction": "Master1_5_AfterDataChanged"
+  }
+]
