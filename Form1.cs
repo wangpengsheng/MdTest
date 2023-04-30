@@ -6,6 +6,7 @@ namespace Demo
 {
     public partial class Form1 : Form
     {
+
         public readonly ModbusPresenter ModbusPresenter;
         private readonly Timer _timer = new();
         public Form1()
@@ -166,6 +167,7 @@ namespace Demo
         {
             richTextBox1.Text = @"";
         }
+
 
         public bool isPause { get; set; }
     }
